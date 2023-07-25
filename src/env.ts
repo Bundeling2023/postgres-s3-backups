@@ -18,4 +18,9 @@ export const env = envsafe({
     default: '',
     allowEmpty: true,
   }),
+  RUN_ON_STARTUP: bool({
+    desc: 'Run a backup on startup of this application',
+    default: false,
+    allowEmpty: true,
+  })
 })
