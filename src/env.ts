@@ -1,4 +1,4 @@
-import { envsafe, str } from "envsafe";
+import { envsafe, str, bool } from "envsafe";
 
 export const env = envsafe({
   AWS_ACCESS_KEY_ID: str(),
